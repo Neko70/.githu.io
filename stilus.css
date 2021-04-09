@@ -1,0 +1,126 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: lightgray;
+}
+#logo {
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    background-image: linear-gradient(green,black);
+    color: white;
+}
+.fosor{
+    /*position: -webkit-sticky;*/
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(7, 70, 7, 0.7);
+}
+.menu li{
+    float: left;
+}
+.menu li > a{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: lightgray;
+}
+li a:hover, .almenu:hover {
+    color: white;
+    background-color: rgba(7, 70, 7, 0.5);
+}
+.almenu {
+    display: inline-block;
+}
+.allista {
+    display: none;
+    position: absolute;
+    background-color: rgba(7, 70, 7, 0.7);
+    min-width: 150px;
+    z-index: 1;
+}
+.allista a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px;
+    color: lightgray;
+}
+.allista a:hover {
+    color: white;
+}
+.almenu:hover .allista{
+    display: block;
+}
+.kep{
+    background-color: black;
+    background-image: url('logo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 169px;
+    margin: auto;
+}
+#beka {
+    float: right;
+}
+.torzs {
+    padding: 0px 20px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+#tabla {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 60%;
+}
+#tabla th, #tabla td {
+    border: 1px solid black;
+    padding: 8px;
+}
+#tabla tr:hover {
+    background-color: rgba(176, 176, 185, 0.5);
+}
+
+footer {
+    background-image: linear-gradient(green,black);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.halo {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 20px;;
+}
+.be {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 20%;    
+}
+.be fieldset {
+    background-color: darkseagreen;
+}
+.be legend {
+    background-color: gray;
+    font-size: small;
+    color: white;
+    padding: 3px 5px;
+}
+.be input {
+    font-size: medium;
+    margin: 5px;
+}

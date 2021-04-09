@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bejelentkezés</title>
+<link rel="stylesheet" type="text/css" href="../stilus.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+           <h1>Balástyai Alkotmány Horgász Egyesület</h1>
+        </div>
+    </header>
+    <div class="fosor">
+        <nav>
+            <ul class="menu">
+                <li><a href="../index.html">Főoldal</a></li>
+                <li class="almenu">
+                    <a href="#">Információk</a>
+                    <div class="allista">
+                     <a href="horgaszrend.html">Helyi horgászrend</a>
+                     <a href="alapszab.html">Alapszabályzat</a>
+                 </div>
+                 </li>
+                <li class="almenu">
+                    <a href="#" class="legordulo">Horgászvizünk</a>
+                    <div class="allista">
+                        <a href="viztarozo.html">Víztározó</a>
+                        <a href="galeria.html">Galéria</a>
+                    </div>
+                </li>
+                <li><a href="szja.html">SZJA 1%</a></li>
+                <li><a href="kapcsolat.html">Kapcsolat</a></li>
+                <li><a href="http://www.bahe.hu/" target="_blank">bahe.hu</a></li>
+                <li><a href="login.html">Bejelentkezés</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="torzs">
+        <div class="be">
+            <form action="login.php" method="POST">
+                <fieldset>
+                    <legend>Bejelentkezés</legend></br>
+                    <input type="text" name="nev" placeholder="Nick név" required><br>
+                    <input type="password" name="jelszo" placeholder="Jelszó" required><br>
+                    <input type="submit" name="belep" value="Belépés"><br>
+                </fieldset>
+            </form>
+            <h3>Ha nincs fiókja regisztráljon!</h3>
+            <form action="reg.php" method="POST">
+                <fieldset>
+                    <legend>Regisztráció</legend></br>
+                    <input type="text" name="vezetek" placeholder="Vezetéknév" required><br>
+                    <input type="text" name="kereszt" placeholder="Keresztnév" required><br>
+                    <input type="text" name="nev" placeholder="Nick név" required><br>
+                    <input type="password" name="jelszo" placeholder="Jelszó" required><br>
+                    <input type="submit" name="regisztral" value="Regisztráció"><br>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div>&copy; Copyright 2021. Balástyai Alkotmány Horgász Egyesület</div>
+    </footer>
+    </body>
+    
+    </html>

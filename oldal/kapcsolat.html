@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kapcsolat</title>
+<link rel="stylesheet" type="text/css" href="../stilus.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+           <h1>Balástyai Alkotmány Horgász Egyesület</h1>
+        </div>
+    </header>
+    <div class="fosor">
+        <nav>
+            <ul class="menu">
+                <li><a href="../index.html">Főoldal</a></li>
+                <li class="almenu">
+                    <a href="#">Információk</a>
+                    <div class="allista">
+                     <a href="horgaszrend.html">Helyi horgászrend</a>
+                     <a href="alapszab.html">Alapszabályzat</a>
+                 </div>
+                 </li>
+                <li class="almenu">
+                    <a href="#" class="legordulo">Horgászvizünk</a>
+                    <div class="allista">
+                        <a href="viztarozo.html">Víztározó</a>
+                        <a href="galeria.html">Galéria</a>
+                    </div>
+                </li>
+                <li><a href="szja.html">SZJA 1%</a></li>
+                <li><a href="kapcsolat.html">Kapcsolat</a></li>
+                <li><a href="http://www.bahe.hu/" target="_blank">bahe.hu</a></li>
+                <li><a href="login.html">Bejelentkezés</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="torzs">
+        <div class="be">
+            <form action="kapcsolat.php" method="POST">
+                <fieldset>
+                    <legend>Üzenet küldés</legend></br>
+                    <input type="email" name="email" placeholder="valaki@email.com" required><br>
+                    <input type="text" name="targy" placeholder="Tárgy" required><br>
+                    <textarea name="szoveg" cols="40" rows="20"  placeholder="Üzenet szövege" required></textarea><br>
+                    <input type="submit" name="kuld" value="Küldés"><br>
+                </fieldset>
+            </form>
+        </div>
+        <p>Beérkezett üzenetek <a href="uzenetek.html">listája</a>.</p>
+    </div>
+    <footer>
+        <div>&copy; Copyright 2021. Balástyai Alkotmány Horgász Egyesület</div>
+    </footer>
+    </body>
+    
+    </html>

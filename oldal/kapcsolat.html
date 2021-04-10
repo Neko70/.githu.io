@@ -42,7 +42,7 @@
             <form action="kapcsolat.php" method="POST">
                 <fieldset>
                     <legend>Üzenet küldés</legend></br>
-                    <input type="email" name="email" placeholder="valaki@email.com" required><br>
+                    <input type="email" name="email" placeholder="valaki@email.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"><br>
                     <input type="text" name="targy" placeholder="Tárgy" required><br>
                     <textarea name="szoveg" cols="40" rows="20"  placeholder="Üzenet szövege" required></textarea><br>
                     <input type="submit" name="kuld" value="Küldés"><br>

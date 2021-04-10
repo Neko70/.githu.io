@@ -42,7 +42,7 @@
             <form action="login.php" method="POST">
                 <fieldset>
                     <legend>Bejelentkezés</legend></br>
-                    <input type="text" name="nev" placeholder="Nick név" required><br>
+                    <input type="text" name="nev" placeholder="Nick név" required minlength="5"><br>
                     <input type="password" name="jelszo" placeholder="Jelszó" required><br>
                     <input type="submit" name="belep" value="Belépés"><br>
                 </fieldset>
@@ -53,7 +53,7 @@
                     <legend>Regisztráció</legend></br>
                     <input type="text" name="vezetek" placeholder="Vezetéknév" required><br>
                     <input type="text" name="kereszt" placeholder="Keresztnév" required><br>
-                    <input type="text" name="nev" placeholder="Nick név" required><br>
+                    <input type="text" name="nev" placeholder="Nick név" required minlength="5"><br>
                     <input type="password" name="jelszo" placeholder="Jelszó" required><br>
                     <input type="submit" name="regisztral" value="Regisztráció"><br>
                 </fieldset>
